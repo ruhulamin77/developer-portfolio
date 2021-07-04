@@ -10,6 +10,7 @@ h1 {
 }
 section {
   display: flex;
+  margin-bottom: 150px;
 }
 .half-width {
   width: 50%;
@@ -18,7 +19,7 @@ section {
 .half-width img {
   width: 80%;
 }
-.hire-me {
+.link-button {
   background-image: linear-gradient(orange, tomato);
   text-decoration: none;
   padding: 10px 40px;
@@ -29,4 +30,15 @@ section {
 .top-section {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+.middle-section {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 150px;
+}
+.middle-section .messi-rise-trophy {
+  width: 90%;
 }
