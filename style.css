@@ -5,6 +5,9 @@ body {
 h1 {
   font-size: 50px;
 }
+h2 {
+  font-size: 40px;
+}
 .name-color {
   color: orange;
 }
@@ -17,7 +20,10 @@ h1 {
   padding-left: 5%;
 }
 .half-width img {
-  width: 80%;
+  width: 70%;
+}
+.text {
+  margin-bottom: 40px;
 }
 .link-button {
   background-image: linear-gradient(orange, tomato);
@@ -27,6 +33,7 @@ h1 {
   border-radius: 5px;
   font-weight: 700;
 }
+
 .top-section {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
@@ -39,6 +46,34 @@ h1 {
   background-position: right;
   padding-right: 150px;
 }
-.middle-section .messi-rise-trophy {
-  width: 90%;
+.middle-section .messi-with-trophy {
+  width: 80%;
+}
+
+.bottom-section {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: 0vh;
+}
+
+.experience-card {
+  border-radius: 10px;
+  width: 40%;
+  box-shadow: 10px 10px 40px gray;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 30px;
+}
+#full-stack-developer {
+  border-left: 7px solid;
+  border-image: linear-gradient(salmon, rgb(255, 238, 0));
+  border-image-slice: 1;
+}
+#baby-web-developer {
+  border: 30px solid;
+  border-image: url(images/screw.png);
+}
+
+footer p {
+  text-align: center;
 }
