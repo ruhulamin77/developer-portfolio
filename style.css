@@ -11,10 +11,7 @@ h2 {
 .name-color {
   color: orange;
 }
-.flexible-container {
-  display: flex;
-  margin-bottom: 150px;
-}
+
 .half-width {
   width: 50%;
   padding-left: 5%;
@@ -56,6 +53,11 @@ h2 {
   background-position: 0vh;
 }
 
+.flexible-container {
+  display: flex;
+  margin-bottom: 150px;
+}
+
 .experience-card {
   border-radius: 10px;
   width: 40%;
@@ -70,8 +72,9 @@ h2 {
   border-image-slice: 1;
 }
 #baby-web-developer {
-  border: 30px solid;
-  border-image: url(images/screw.png);
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, aqua);
+  border-image-slice: 1;
 }
 
 footer p {
